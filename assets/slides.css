@@ -1,0 +1,29 @@
+.slider {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slides {
+    display: flex;
+    width: 500%; /* 5 imagens, por exemplo, cada uma com 100% de largura */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    width: 100%;
+    flex: 1 0 100%;
+    transition: 0.5s;
+  }
+  
+  .slide img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+  }
+  
